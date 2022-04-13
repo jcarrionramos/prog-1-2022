@@ -72,8 +72,8 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Nicolas: phony || CMakeFiles/Nicolas.dir
 
-build CMakeFiles/Nicolas.dir/ayudantia33.cpp.o: CXX_COMPILER__Nicolas_Debug /Users/andresmoncada/CLionProjects/prog-1-2022/Nicolas/ayudantia33.cpp || cmake_object_order_depends_target_Nicolas
-  DEP_FILE = CMakeFiles/Nicolas.dir/ayudantia33.cpp.o.d
+build CMakeFiles/Nicolas.dir/ayudantia41.cpp.o: CXX_COMPILER__Nicolas_Debug /Users/andresmoncada/CLionProjects/prog-1-2022/Nicolas/ayudantia41.cpp || cmake_object_order_depends_target_Nicolas
+  DEP_FILE = CMakeFiles/Nicolas.dir/ayudantia41.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/Nicolas.dir
   OBJECT_FILE_DIR = CMakeFiles/Nicolas.dir
@@ -86,7 +86,7 @@ build CMakeFiles/Nicolas.dir/ayudantia33.cpp.o: CXX_COMPILER__Nicolas_Debug /Use
 #############################################
 # Link the executable Nicolas
 
-build Nicolas: CXX_EXECUTABLE_LINKER__Nicolas_Debug CMakeFiles/Nicolas.dir/ayudantia33.cpp.o
+build Nicolas: CXX_EXECUTABLE_LINKER__Nicolas_Debug CMakeFiles/Nicolas.dir/ayudantia41.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Nicolas.dir
   POST_BUILD = :
