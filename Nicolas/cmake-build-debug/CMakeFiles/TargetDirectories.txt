@@ -1,0 +1,3 @@
+/Users/andresmoncada/CLionProjects/prog-1-2022/Nicolas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/andresmoncada/CLionProjects/prog-1-2022/Nicolas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/andresmoncada/CLionProjects/prog-1-2022/Nicolas/cmake-build-debug/CMakeFiles/Nicolas.dir
