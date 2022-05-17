@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 // tipoDeDato nombreFuncion(tipoDeDato nombreVariable, ...) {
 //   BLOQUE DE CODIGO
 //   return;
@@ -13,9 +12,9 @@ int suma(int primero, int segundo) {
   return c;
 }
 
-int suma(int primero, int segundo) {
-  return primero + segundo;
-}
+// int suma(int primero, int segundo) {
+//   return primero + segundo;
+// }
 
 
 int main() {
