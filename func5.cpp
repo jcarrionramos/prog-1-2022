@@ -8,18 +8,23 @@ int func1(int x) {
   return resultado;
 }
 
-string saludarNombre() {
+string crearTextoSaludo() {
   string nombre;
   cin >> nombre;
   return "Hola " + nombre;
 }
 
-void saludar() {
+void saludarPorPantalla() {
   string nombre;
   cin >> nombre;
   cout << "Hola " <<  nombre << endl;
 }
 
 int main() {
-  saludar();
+  string lala;
+  lala = crearTextoSaludo();
+  saludarPorPantalla(); // de tipo void
+
+  // string texto = crearTextoSaludo();
+  // cout << "texto Resultado: " << texto << endl;
 }

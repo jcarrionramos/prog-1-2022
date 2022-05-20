@@ -16,6 +16,7 @@ int func2() {
 int func1() {
   cout << "Func1" << endl;
   func2();
+  
   return 0;
 }
 

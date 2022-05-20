@@ -21,7 +21,6 @@ int func3() {
 }
 
 int main() {
-  
   cout << "Inicio de la funcion Main" << endl;
   
   func1();
