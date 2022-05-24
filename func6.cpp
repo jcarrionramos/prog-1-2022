@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// el parametro x es una copia del valor que la funcion main
+// el parametro x es una copia del valor que recibe en la funcion main
 int sumarUno(int x) {
   x = x + 1;
   return x;
@@ -18,6 +18,7 @@ int sumarUnoReferencia(int* xPuntero) {
 
 int main() {
   int x = 2;
+  
   sumarUnoReferencia(&x);
   
   cout << "El valor de X: " << x << endl;

@@ -13,14 +13,6 @@ int calcularFib(int n) {
   return nextValue;
 }
 
-int pow(int base, int exponente) {
-  int resultado = base;
-  for (int i = 0; i < exponente; i++) {
-    resultado *= base;
-  }
-  return resultado;
-}
-
 int main() {
   int n;
   cin >> n;
